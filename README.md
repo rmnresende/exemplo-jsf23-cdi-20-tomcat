@@ -23,8 +23,8 @@ por enquanto.
  
  ## Referências
  
-<a href="https://dzone.com/articles/javaserver-faces-23-1">DZone - JavaServer Faces 2.3 Quick Reference</a>
-<a href="http://arjan-tijms.omnifaces.org/p/jsf-23.html#1355">Arjan Tijms' Weblog - What's new in JSF 2.3?</a>
+<a href="https://dzone.com/articles/javaserver-faces-23-1">DZone - JavaServer Faces 2.3 Quick Reference</a>  
+<a href="http://arjan-tijms.omnifaces.org/p/jsf-23.html#1355">Arjan Tijms' Weblog - What's new in JSF 2.3?</a>  
 <a href="http://www.devdojo.com.br/aula?playlistId=PL62G310vn6nFmOfLeeaYq20Gm7Vav7Aib">DevDojo - Mão na Massa 07 - [Front end] Criando projeto com JSF 2.3 e Tomcat 9</a>
 
  
