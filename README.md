@@ -7,11 +7,11 @@ que ensine a confirguração mais básica para rodar esta última versão no fra
 por enquanto.
 
 ## Quais as ferramentas utilizadas?
- Eclipse Oxygen.2
- Tomcat 8.5.24
- JSF 2.3
- CDI 2.0 (Weld Servlet 2.4.5)
- Maven
+ *Eclipse Oxygen.2
+ *Tomcat 8.5.24
+ *JSF 2.3
+ *CDI 2.0 (Weld Servlet 2.4.5)
+ *Maven
  
  Por ser um este um projeto Maven, acredito que quem quiser usar o Netbeans não terá muitos problemas.
  
