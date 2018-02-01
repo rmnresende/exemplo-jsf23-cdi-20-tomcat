@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:f="http://xmlns.jcp.org/jsf/core"
+	xmlns:h="http://xmlns.jcp.org/jsf/html"
+	xmlns:ui="http://xmlns.jcp.org/jsf/facelets">
+
+<h:head>
+	<title>JSF 2.3</title>
+</h:head>
+
+<h:body>
+
+	<h3>Testando injeção de dependência com CDI 2.0</h3>
+	<h:panelGrid columns="2" cellpadding="1" border="1">
+		<h:outputLabel value="Testando injeção de um serviço:" />
+		<h:outputText value="#{helloBean.testeInjectServico()}" />
+
+		<h:outputLabel value="Testando injeção de coxtexto:" />
+		<h:outputText value="#{helloBean.testeInjectContexto()}" />
+	</h:panelGrid>
+
+	<br />
+
+	<h3>Testando suporte para Inteface Map no DataTable:</h3>
+	<h:dataTable value="#{helloBean.mapaCursos}" var="item"
+		         cellpadding="1" border="1">
+
+		<h:column>
+			<f:facet name="header">Chave do item</f:facet>
+			#{item.key}
+		</h:column>
+
+		<h:column>
+			<f:facet name="header">Valor do item</f:facet>
+			#{item.value}
+		</h:column>
+
+	</h:dataTable>
+	
+	<h3>Testando suporte para Inteface Map no UIReapeat:</h3>
+	<table border="1">
+		<thead>
+			<td><b>Chave do item</b></td>
+			<td><b>Valor do item</b></td>
+		</thead>
+		<tbody>
+			<ui:repeat value="#{helloBean.mapaLivros}" var="item">
+				<tr>
+					<td>#{item.key}</td>
+					<td>#{item.value}</td>
+				</tr>
+			</ui:repeat>
+		</tbody>
+	</table>
+
+	 
+	
+
+
+</h:body>
+
+</html>
