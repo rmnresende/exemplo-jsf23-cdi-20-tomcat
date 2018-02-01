@@ -1,4 +1,4 @@
-#O que é?
+# O que é?
 
 Este é um exemplo de **confiuração inicial para um projeto JSF 2.3 com CDI 2.0 e Tomcat**, este último não é um container Java EE
 completo como o JBoss ou mesmo o TomcatEE, e por isso um simples Hello World com JSF 2.3, pode não ser (infelizmente) uma tarefa
@@ -15,7 +15,7 @@ por enquanto.
  
  Por ser um este um projeto Maven, acredito que quem quiser usar o Netbeans não terá muitos problemas.
  
- ##Este projeto é apeans um Hello World?
+ ## Este projeto é apeans um Hello World?
  Sim. Ele é basicamente um Hello World, o objetivo é apenas servir de referência para as configurações inicais do JSF 2.3
  rodando no Tomcat. O projeto também faz um breve teste de algumas funcionalidades novas desta versão do 2.3 do JSF, como
  a injeção de depência de alguns artefatos como o FaceContext, o que não era possível na versão 2.2, e o suporte para a 
