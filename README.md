@@ -21,4 +21,8 @@ por enquanto.
  a injeção de depência de alguns artefatos como o FaceContext, o que não era possível na versão 2.2, e o suporte para a 
  Interface Map em componentes como DataTable e UIRepeat.
  
+ ## Referências
+ 
+<a href="https://dzone.com/articles/javaserver-faces-23-1">DZone - JavaServer Faces 2.3 Quick Reference</a>
+ 
  
