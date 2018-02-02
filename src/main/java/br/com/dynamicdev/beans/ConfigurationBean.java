@@ -5,7 +5,7 @@ import javax.faces.annotation.FacesConfig;
 import static javax.faces.annotation.FacesConfig.Version.JSF_2_3;
 
 /**
- * Classe necessaria para injetar FacesContext, ExternalContext, ...
+ * Classe necessaria para usar novos recursos da versao 2.3
  * @author renan
  *
  */
